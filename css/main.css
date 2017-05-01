@@ -272,8 +272,12 @@ a:hover, a:focus {
     border-color: transparent;
 }
 
-.logo img {
-	margin-top: 6px;
+.logo {
+    font-size: 2em;
+    font-family: "Roboto", sans-serif;
+    color: #FFF;
+    padding: 5px;
+    border: 1px solid white;
 }
 
 
@@ -282,7 +286,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/header-bg.jpg) no-repeat center center;
+  background: url(../img/hero_image_car_sunset.jpeg) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -292,6 +296,19 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+
+.header-instructor {
+    background: url(../img/learner_driver.jpeg) no-repeat center center;
+    width: 100%;
+    padding: 20px 10px 60px 10px;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
 
 .header-info {
   position: absolute;
