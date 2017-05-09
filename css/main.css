@@ -286,7 +286,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/hero_image_car_sunset.jpeg) no-repeat center center;
+  background: url(../img/cars_on_road.jpeg) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -405,6 +405,11 @@ hr.line {
 	color: #6d3f96;
 }
 
+.red {
+    border-color: #960a0a;
+    color: #960a0a;
+}
+
 .blue {
 	border-color: #70cbce;
 	color: #70cbce
@@ -413,6 +418,11 @@ hr.line {
 .yellow {
 	border-color: #fdc05d;
 	color: #fdc05d;
+}
+
+.green {
+    border-color: #2e945e;
+    color: #2e945e;
 }
 
 .iphone {
@@ -684,7 +694,19 @@ footer {
 /* Large screens ----------- */
 @media (min-width: 1200px) and (max-width: 3000px) {
 
-}   
+}
+
+
+img.app-image{
+    max-width: 900px;
+    max-height: 500px;
+}
+
+.icon-center{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
 
 
 
